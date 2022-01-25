@@ -21,7 +21,7 @@ public class Controlador {
                 System.out.println("Inserte el tamaño de la pila");
                 cantidad = reader.nextInt();
             } while (cantidad<1);
-            System.out.println(cantidad);
+            
             this.pilarKny = new Stack(cantidad);
             
         } catch (NoSuchElementException e) {
