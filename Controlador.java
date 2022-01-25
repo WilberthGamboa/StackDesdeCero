@@ -63,7 +63,13 @@ public class Controlador {
 
                         break;
                     case 3:
+                    if (pilarKny.isEmpty()) {
+                        System.out.println("Pila vacia, no hay tope");
+                    } else {
                         System.out.println("El tope es: " + pilarKny.peek());
+                    }
+
+                        
 
                         break;
                     case 4:
